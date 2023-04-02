@@ -163,14 +163,17 @@ l1 = [1, 45, 45, 98, 23, 15]
 # print(age)
 # print(current_month)
 
-# #import math
-# import module
-# print(module.hello('Sam'))
-#
+import math
+import module
+print(module.hello('Sam'))
+from module import *
+
 # from module import hello
+# import module hello
 # print('Hello ('Sam')')
-# #print(sum(5, 28))
-#
+import module math
+print(sum(5, 28))
+
 # print(dir(__builtins__))
 # print(globals())
 # print(f'Locals: {locals()}')
